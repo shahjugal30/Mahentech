@@ -19,12 +19,3 @@ function mouseOutcpe() {
     document.getElementById("cpeimg").style.display = "none";
     document.getElementById("basicimg").style.display = "block";
 }
-
-function mouseOverdropdown() {
-    document.getElementById("dropdown-content").style.display = "block";
-
-}
-
-function mouseOutdropdown() {
-    document.getElementById("dropdown-content").style.display = "none";
-}
