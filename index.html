@@ -2,7 +2,9 @@
 <html>
 
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MahenTech</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -10,24 +12,25 @@
     <script src='javascript/javascript.js'></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
 </head>
 
 <body>
+	<div class = "content-holder">
     <header class="con">
         <div class="container">
             <div class="logo_navbar_left">
-                <a href="http://www.mahentech.com/" title="mahentech">
-                    <img class="logo" src="mahentech.png" alt="mahentech">
+                <a href="#" title="mahentech">
+                    <img class="logo" src="images/mahentech.png" alt="mahentech">
                 </a>
             </div>
             <nav class="standard navbar-right">
                 <ul class="nav navbar-nav">
-                    <li class="menu-item-14">
+                    <li class="active">
                         <a href="#">HOME</a>
                     </li>
                     <li class="menu-item-14">
-                        <a href="#">ABOUT US  </a>
+                        <a href="#">ABOUT US</a>	
                     </li>
 
                     <li class="menu-item-15">
@@ -65,10 +68,19 @@
 
                 </ul>
             </nav>
+			<div class = "menu-toggle"><i class = "fa fa-bars" aria-hidden = "true"></i>
+			</div>
         </div>
+	</div>
     </header>
-
-
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script type = "text/javascript">
+		$(document).ready(function(){
+			$('.menu-toggle').click(function(){
+				$('nav').toggleClass('active')
+			})
+		})
+	
+	</script>
 </body>
-
 </html>

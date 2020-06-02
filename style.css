@@ -46,6 +46,7 @@ ul {
 }
 
 li.menu-item-14,
+li.active,
 li.menu-item-15,
 li.menu-item-16,
 li.menu-item-17,
@@ -109,20 +110,43 @@ li.menu-item-19 {
 }
 
 
-/* Use a media query to add a breakpoint at 800px: */
+.menu-toggle
+{
+	color: #fff;
+	float: right;
+	line-height:50px;
+	font-size:24px;
+	cursor: pointer;
+	display:none;
+}
 
-@media screen and (max-width: 600px) {
-    .logo_navbar_left {
-        width: 100%;
-    }
-    li.menu-item-14,
-    li.menu-item-15,
-    li.menu-item-16,
-    li.menu-item-17,
-    li.menu-item-18,
-    li.menu-item-19 {
-        content: '/';
-        font-family: 'Avenir Next Regular';
-        font-weight: normal;
-    }
+@media (max-width: 991px)
+{
+	header{
+		padding: 0;
+	}
+	.menu-toggle{
+		display: block;
+		
+	}
+	header nav{ 
+		position: absolute;
+		width: 100%;
+		height: calc(100vh - 43.4px);
+		background: rgb(2, 2, 2);
+		top: 43.4px;
+		left: -100%;
+		transition:0.5s;
+	}
+	header nav.active
+	{
+		left: 0;
+	}
+	header nav ul {
+		display: block;
+		text-align:center;
+	}
+	header nav ul li a{
+		border-bottom: 1px solid rgba(0,0,0,.2);
+	}
 }
