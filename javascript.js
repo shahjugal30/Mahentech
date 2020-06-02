@@ -19,3 +19,9 @@ function mouseOutcpe() {
     document.getElementById("cpeimg").style.display = "none";
     document.getElementById("basicimg").style.display = "block";
 }
+
+$(document).ready(function() {
+    $('.menu-toggle').click(function() {
+        $('nav').toggleClass('active')
+    })
+})
