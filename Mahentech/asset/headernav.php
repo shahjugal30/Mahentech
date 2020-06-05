@@ -15,6 +15,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="jquery-3.5.1.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
 </head>
      <header class="con">
             <div class="container">

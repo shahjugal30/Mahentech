@@ -1,0 +1,58 @@
+#home {
+    text-decoration: none;
+    background-color: inherit;
+    margin-bottom: 12px;
+}
+
+.intro {
+    padding-top: 10px;
+    color: white;
+    margin-top: 0px;
+    font-family: Impact, Charcoal, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 50px;
+    -webkit-animation: glow 1s ease-in infinite alternate;
+    -moz-animation: glow 1s ease-in infinite alternate;
+    animation: glow 1s ease-in infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px rgb(82, 79, 79), 0 0 10px rgb(82, 79, 79), 0 0 15px rgb(82, 79, 79), 0 0 20px rgb(82, 79, 79), 0 0 25px rgb(82, 79, 79), 0 0 30px #e60073, 0 0 35px #e60073;
+    }
+    to {
+        ext-shadow: 0 0 5px rgb(82, 79, 79), 0 0 10px rgb(82, 79, 79), 0 0 15px rgb(82, 79, 79), 0 0 20px rgb(82, 79, 79), 0 0 25px rgb(82, 79, 79), 0 0 30px #e60073, 0 0 35px #e60073;
+    }
+}
+
+.intro2 {
+    color: white;
+    -webkit-animation: glow 1s ease-in infinite alternate;
+    -moz-animation: glow 1s ease-in infinite alternate;
+    animation: glow 1s ease-in infinite alternate;
+}
+
+.knowmore_btn {
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+}
+
+.introduction {
+    margin-left: 90px;
+}
+
+.knowmore_btn:hover {
+    transform: scale(1.1);
+}

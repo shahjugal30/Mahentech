@@ -1,57 +1,70 @@
-@media (max-width: 1110px) {
-    .logo_navbar_left img {
-        width: 20%;
-        height: auto;
-        display: block;
-        margin: 0;
+    @media (max-width: 1110px) {
+        .logo_navbar_left img {
+            width: 20%;
+            height: auto;
+            display: block;
+            margin: 0;
+        }
+        .container li.menu-item-5-mobile {
+            display: block;
+        }
+        .container li.menu-item-4 {
+            display: none;
+        }
+        header {
+            height: 60px;
+            padding: 15px 10px 0px 0px;
+        }
+        .container {
+            padding-right: 5px;
+        }
+        .container .menu-toggle {
+            display: block;
+            font-size: 35px;
+        }
+        header nav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 60px;
+        }
+        header nav.active {
+            height: 100%;
+            width: 90%;
+            margin-top: 60px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 1.5s;
+            padding-top: 60px;
+            box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2);
+        }
+        header nav ul {
+            display: block;
+            text-align: center;
+        }
+        header nav ul li a {
+            border-bottom: 1px solid rgba(0, 0, 0, .2);
+        }
+        .top_background h1.intro {
+            font-weight: normal;
+            font-size: x-large;
+        }
+        .top_background h3.intro2 {
+            font-size: large;
+        }
+        .top_background .introduction {
+            margin-left: 20px;
+        }
+        .top_background .knowmore_btn {
+            padding: 5px 5px;
+        }
     }
-    .container li.menu-item-5-mobile {
-        display: block;
-    }
-    .container li.menu-item-4 {
-        display: none;
-    }
-    header {
-        height: 60px;
-        padding: 15px 10px 0px 0px;
-    }
-    .container {
-        padding-right: 5px;
-    }
-    .container .menu-toggle {
-        display: block;
-        font-size: 35px;
-    }
-    header nav {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        padding-top: 60px;
-    }
-    header nav.active {
-        height: 100%;
-        width: 90%;
-        margin-top: 60px;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: #111;
-        overflow-x: hidden;
-        transition: 1.5s;
-        padding-top: 60px;
-        box-shadow: 30px 30px 30px 30px rgba(0, 0, 0, 0.2);
-    }
-    header nav ul {
-        display: block;
-        text-align: center;
-    }
-    header nav ul li a {
-        border-bottom: 1px solid rgba(0, 0, 0, .2);
-    }
-}
