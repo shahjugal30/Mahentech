@@ -3,12 +3,12 @@
 
     <head>
 
-        <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
         <link rel="stylesheet" href="https://unpkg.com/flickity-fade@1/flickity-fade.css">
-        <link rel="stylesheet" type="text/css" href="css/indexcss.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <script src="https://unpkg.com/flickity-fade@1/flickity-fade.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
@@ -22,7 +22,7 @@
                     <h1 class="intro">CERTIFIED ETHICAL HACKING PRACTITIONER</h1>
                     <h3 class="intro2">Sachin Dedhia is an independent Cyber Crime Investigator & also a Certified
                         Ethical Hacker (EC-Council,USA).</h3>
-                    <button class="knowmore_btn">Know More</button>
+                    <button class="knowmore_btn" style="color:black">Know More</button>
                 </div>
             </div>
 

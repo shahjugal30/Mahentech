@@ -13,7 +13,7 @@
          <link rel="stylesheet"
              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
          <link rel="stylesheet" type="text/css" media=" screen and (max-width: 1110px)" href="css/mobilestyle.css">
-         <link rel="stylesheet" type="text/css" href="css/style.css">
+         <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
          <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
          <script src="jquery-3.5.1.min.js"></script>
          <link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
@@ -54,26 +54,62 @@
                              <div class="dropdown-content" id="dropdown-content">
 
                                  <div class="grid-container">
-                                     <div id="image">
-                                         <img class="basicimg" id="basicimg" src="images/q1.jpg" width="450"
-                                             height="500">
-                                         <img class="cehimg" id="cehimg" src="images/q2.jpg" width="450" height="500"
-                                             style=" display:none">
-                                         <img class="cpeimg" id="cpeimg" src="images/q3.jpg" width="450" height="500"
-                                             style=" display:none">
+                                     <div id="image" class="image">
+                                         <img class="basicimg" id="basicimg" src="images/mahentech.png">
+                                         <img class="cehimg" id="cehimg" src="images/ceh.jpg">
+                                         <img class="chfiimg" id="chfiimg" src="images/chfi.jpg">
+                                         <img class="ecsaimg" id="ecsaimg" src="images/ecsa.jpg">
+                                         <img class="casenetimg" id="casenetimg" src="images/casenet.jpg">
+                                         <img class="casejavaimg" id="casejavaimg" src="images/casejava.jpg">
+                                         <img class="cehmasterimg" id="cehmasterimg" src="images/cehmaster.jpg">
+                                         <img class="ecsapimg" id="ecsapimg" src="images/ecsap.jpg">
                                      </div>
+
+
 
                                      <div class="courses">
                                          <br><br>
                                          <div class="ceh" onmouseover="mouseOverceh()" onmouseout="mouseOutceh()"><i
-                                                 class='fas fa-long-arrow-alt-right' style='font-size:25px'></i><a
-                                                 style=" text-decoration: none; color: white; font-size: 25px;">Certified
+                                                 class='fas fa-long-arrow-alt-right'></i><a
+                                                 class="trainingcourse">Certified
                                                  Ethical Hacker</a></div>
 
-                                         <div class="cpe" onmouseover="mouseOvercpe()" onmouseout="mouseOutcpe()"><i
-                                                 class='fas fa-long-arrow-alt-right' style='font-size:25px'></i><a
-                                                 style=" text-decoration: none; color: white; font-size: 25px;">cpe</a>
+                                         <div class="chfi" onmouseover="mouseOverchfi()" onmouseout="mouseOutchfi()">
+                                             <i class='fas fa-long-arrow-alt-right'></i><a
+                                                 class="trainingcourse">Computer
+                                                 Hacking Forensic Investigator</a>
                                          </div>
+                                         <div class="ecsa" onmouseover="mouseOverecsa()" onmouseout="mouseOutecsa()"><i
+                                                 class='fas fa-long-arrow-alt-right'></i><a
+                                                 class="trainingcourse">EC-Council Certified Security Analyst (ECSA):
+                                                 Penetration
+                                                 Testing</a>
+                                         </div>
+                                         <div class="casenet" onmouseover="mouseOvercasenet()"
+                                             onmouseout="mouseOutcasenet()"><i
+                                                 class='fas fa-long-arrow-alt-right'></i><a
+                                                 class="trainingcourse">Certified Application Security Engineer (CASE
+                                                 .NET) </a>
+                                         </div>
+                                         <div class="casejava" onmouseover="mouseOvercasejava()"
+                                             onmouseout="mouseOutcasejava()"><i
+                                                 class='fas fa-long-arrow-alt-right'></i><a
+                                                 class="trainingcourse">Certified Application Security Engineer (CASE
+                                                 .JAVA) </a>
+                                         </div>
+                                         <div class="cehmaster" onmouseover="mouseOvercehmaster()"
+                                             onmouseout="mouseOutcehmaster()"><i
+                                                 class='fas fa-long-arrow-alt-right'></i><a
+                                                 class="trainingcourse">Certified
+                                                 Ethical Hacker(MASTER)</a>
+                                         </div>
+                                         <div class="ecsap" onmouseover="mouseOverecsap()" onmouseout="mouseOutecsap()">
+                                             <i class='fas fa-long-arrow-alt-right'></i><a class="trainingcourse">
+                                                 EC-Council Certified Security Analyst (Practical)</a>
+                                         </div>
+
+
+
                                      </div>
                                  </div>
 
@@ -97,4 +133,5 @@
                  </ul>
              </nav>
          </div>
+
      </header>
