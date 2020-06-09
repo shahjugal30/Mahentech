@@ -1,4 +1,4 @@
-#home {
+#home_nav {
     text-decoration: none;
     background-color: inherit;
     margin-bottom: 12px;
@@ -10,7 +10,6 @@
     margin-top: 0px;
     font-family: Impact, Charcoal, sans-serif;
     font-weight: 500;
-    font-style: italic;
     font-size: 50px;
     -webkit-animation: glow 1s ease-in infinite alternate;
     -moz-animation: glow 1s ease-in infinite alternate;
@@ -50,9 +49,140 @@
 }
 
 .introduction {
-    margin-left: 90px;
+    padding-left: 55px;
+    padding-bottom: 15px;
 }
 
 .knowmore_btn:hover {
     transform: scale(1.1);
+}
+
+.ourservices {
+    padding: 20px 2px 20px 55px;
+    background-color: inherit;
+    color: white;
+}
+
+.carousel {
+    padding: 25px;
+    border-top-style: inset;
+    background-color: inherit;
+    opacity: 1;
+    position: absolute;
+}
+
+.carousel-cell {
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+    height: 100%;
+}
+
+.w3-image {
+    height: 550px;
+    width: 980px;
+    padding: 5px;
+}
+
+.btn_showdetails {
+    background-color: darkmagenta;
+    border: 1px solid white;
+    color: white;
+    padding: 3px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+    border-radius: 5px;
+}
+
+.btn_showdetails:hover {
+    transform: scale(1.1);
+}
+
+.servicesintro {
+    width: 60%;
+    top: 90px;
+    position: absolute;
+    bottom: 60px;
+    left: 189px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+.trainingintro {
+    width: 60%;
+    top: 90px;
+    position: absolute;
+    bottom: 60px;
+    left: 189px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 25px;
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 90px;
+    }
+}
+
+.inviteworkshop {
+    background-color: inherit;
+    color: white;
+    padding: 20px 5px 20px 25px;
+    font-family: verdana
+}
+
+.invite_btn {
+    background-color: inherit;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.5s;
+}
+
+.content-holder .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: auto;
+}
+
+.content-holder .row {
+    border-top-style: outset;
+    border-bottom-style: outset;
+    border-left-style: inset;
+    background-color: inherit;
 }
