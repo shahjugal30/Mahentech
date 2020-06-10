@@ -118,7 +118,7 @@
                      </li>
                      <li class="menu-item-5-mobile">
 
-                         <a href="#">Training</a>
+                         <a href="training_mobile.php">Training</a>
 
                      </li>
 
