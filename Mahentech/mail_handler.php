@@ -12,10 +12,23 @@
 		$headers="From: ".$email;
 
 		if(mail($to, $subject, $message, $headers)){
-			echo "<h1>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h1>";
+				echo '<script type="text/javascript">';
+				echo ' alert("THANKYOU WE WILL GET IN TOUCH WITH YOU") '; //not showing an alert box.
+				echo '</script>';
+			
 		}
 		else{
-			echo "Something went wrong!";
+			echo '<script type="text/javascript">
+				';
+				echo ' alert("SOMWTHING WENT WRONG:(<br> PLEASE TRY AGAIN")'; //not showing an alert box.
+				echo '
+			</script>';
 		}
 	}
 ?>
+<html>
+	<script>
+		window.history.back();
+
+	</script>
+</html>

@@ -130,4 +130,33 @@
             height: auto;
             border-bottom-style: outset;
         }
+        .grid-container-top {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+        .grid-item-top {
+            font-size: 20px;
+        }
+        .grid-container-bottom {
+            display: grid;
+            grid-template-columns: 100%;
+            margin-right: 25px;
+        }
+        .certificate-image {
+            width: 200px;
+            height: 200px;
+        }
+        .tab .tablinks {
+            padding: 15px 5px 15px 10px;
+        }
+        .video-embed {
+            width: 320px;
+            height: 200px;
+            padding: 0px;
+            padding-right: 95px;
+        }
+        .maincontentcehpage {
+            padding-left: 17px;
+            padding-right: 7px;
+        }
     }

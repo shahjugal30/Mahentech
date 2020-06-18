@@ -4,14 +4,15 @@
 .casenet,
 .casejava,
 .cehmaster,
-.ecsap {
+.ecsap,
+.trainingcoursemobile {
     transition: transform .9s;
     font-size: 25px;
     padding-bottom: 15px;
 }
 
 .trainingcoursemobile:hover {
-    transform: translateX(35px);
+    transform: translateX(65px);
     text-decoration: none;
     color: rgb(238, 68, 68);
     text-shadow: 2px 2px black;

@@ -11,7 +11,7 @@
         <?php include('asset/headernav.php') ?>
         <div class="training_courses" style="padding:15px">
             <div class="course_names">
-                <div class="ceh"><i class='fas fa-angle-double-right' style='font-size:24px'></i><a href="#"
+                <div class="ceh"><i class='fas fa-angle-double-right' style='font-size:24px'></i><a href="cehpage.php"
                         class="trainingcoursemobile">Certified
                         Ethical Hacker</a></div>
 

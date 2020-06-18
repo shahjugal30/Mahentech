@@ -1,4 +1,3 @@
-<?php include('asset/headernav.php') ?>
 <!DOCTYPE html>
 <html>
 
@@ -19,17 +18,16 @@
             }
 
             .main {
-                width: 500px;
+                width: autox;
                 margin: 50px auto;
                 border-radius: 10px;
-                border: 5px solid #dc143c;
-                border-left: 40px solid #dc143c;
+                border: 5px solid black;
                 box-shadow: 1px 2px 10px #555;
             }
 
             .info {
-                width: 100%;
-                background-color: #dc143c;
+                width: auto;
+                background-color: black;
                 padding: 7px;
                 text-shadow: 1px 1px 1px #222;
                 color: #fff;
@@ -42,7 +40,7 @@
             }
 
             label {
-                color: navy;
+                color: black;
                 font-size: 18px;
             }
 
@@ -50,44 +48,35 @@
             .msg-box {
                 width: 100%;
                 padding: 10px;
-                margin-top: 4px;
                 margin-bottom: 5px;
-                border-radius: 5px;
-                border: 2px solid #dc143c;
                 font-weight: bold;
                 color: #dc143c;
-                border-right: 15px solid #dc143c;
-                border-left: 15px solid #dc143c;
-                resize: none;
+
             }
 
-            .msg-box {
-                height: 80px;
-            }
+
 
             .inp:focus,
             .msg-box:focus {
                 outline: none;
-                border: 2px solid navy;
-                border-right: 15px solid navy;
-                border-left: 15px solid navy;
+                border: 3px solid black;
             }
 
             .sub-btn {
-                width: 100%;
+                width: auto;
                 padding: 10px;
                 border-radius: 5px;
                 margin-top: 5px;
                 border: none;
-                background: linear-gradient(#dc143c, #800000);
+                background: linear-gradient(#494143, #0e0d0d);
                 cursor: pointer;
                 color: #fff;
                 font-size: 20px;
-                text-shadow: 1px 1px 1px #444;
+                text-shadow: 1px 1px 1px rgb(170, 168, 168);
             }
 
             .sub-btn:hover {
-                background: linear-gradient(#800000, #dc143c);
+                background: linear-gradient(#494848, #0f0e0f);
                 opacity: 0.8;
                 transition: all ease-out 0.2s;
             }
@@ -96,8 +85,8 @@
                 outline: none;
             }
 
-            <blade media|(max-width%3A%20720px)%20%7B%0D>.main {
-                width: 90%;
+            <blade media|(max-width%3auto720px)%20%7B%0D>.main {
+                width: auto
             }
             }
 
@@ -105,7 +94,6 @@
                 text-decoration: none;
                 background-color: inherit;
                 margin-bottom: 12px;
-
             }
 
         </style>
@@ -113,7 +101,7 @@
 
     <body>
         <div class="main">
-            <div class="info">Give Your Feedback!</div>
+            <div class="info">Contact Us</div>
             <form action="mail_handler.php" method="post" name="form" class="form-box">
                 <label for="name">Name</label><br>
                 <input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
@@ -121,12 +109,11 @@
                 <input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
                 <label for="phone">Phone</label><br>
                 <input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
-                <label for="message">Message</label><br>
-                <textarea name="msg" class="msg-box" placeholder="Enter Your Message Here..." required></textarea><br>
+
+                <br>
                 <input type="submit" name="submit" value="Send" class="sub-btn">
             </form>
         </div>
-        <?php include('asset/footer.php') ?>
     </body>
 
 </html>
