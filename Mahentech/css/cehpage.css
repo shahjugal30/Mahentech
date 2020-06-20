@@ -56,6 +56,11 @@ hr.rounded {
     font-style: normal;
 }
 
+.video-embed {
+    width: 400;
+    height: 290;
+}
+
 .certificate-image {
     width: auto;
     height: auto;

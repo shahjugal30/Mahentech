@@ -13,7 +13,7 @@
             <div class="aboutusimage">
                 <img src="images/aboutusimage.jpg">
             </div>
-            <div class="mahentechlogo" style="display:none;">
+            <div class="mahentechlogo">
                 <img src="images/mahentech.png">
             </div>
 

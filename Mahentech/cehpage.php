@@ -43,8 +43,8 @@
                 <img class="certificate-image" src="images/certificate.png" style="float:left">
             </div>
             <div class="grid-item-bottom">
-                <iframe class="video-embed" width="460" height="290" src="https://www.youtube.com/embed/L6dofrkRohA"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                <iframe class="video-embed" src="https://www.youtube.com/embed/L6dofrkRohA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
@@ -63,8 +63,8 @@
                 covers 340 attack technologies, commonly used by hackers.</p>
         </div>
         <div class="grid-item-bottom2">
-            <iframe class="video-embed" width="460" height="290" src="https://www.youtube.com/embed/iU_7zKypJZI"
-                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            <iframe class="video-embed" src="https://www.youtube.com/embed/iU_7zKypJZI" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
 
         </div>

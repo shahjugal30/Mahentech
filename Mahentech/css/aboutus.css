@@ -54,3 +54,7 @@ hr.rounded {
     text-align: justify;
     font-size: larger;
 }
+
+.mahentechlogo img {
+    display: none;
+}
