@@ -41,14 +41,14 @@
                         <a id="home_nav" href="index.php">Home</a>
                     </li>
                     <li class="menu-item-1">
-                        <a href="#">About Us</a>
+                        <a id="aboutus_nav" href="aboutus.php">About Us</a>
                     </li>
 
                     <li class="menu-item-2">
-                        <a href="#">Services</a>
+                        <a id="services_nav" href="#">Services</a>
                     </li>
                     <li class="menu-item-3">
-                        <a href="#">Events</a>
+                        <a id="events_nav" href="#">Events</a>
                     </li>
                     <li class="menu-item-4">
                         <div class="dropdown">
@@ -126,10 +126,10 @@
                     </li>
 
                     <li class="menu-item-6">
-                        <a href="#">Security Tips</a>
+                        <a id="securitytips_nav" href="#">Security Tips</a>
                     </li>
                     <li class="menu-item-7">
-                        <a id="contactus" href="contactus.php">Contact Us</a>
+                        <a id="contactus_nav" href="contactus.php">Contact Us</a>
                     </li>
 
 

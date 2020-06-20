@@ -7,6 +7,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
         <style type="text/css" media="screen">
+            #contactus_nav {
+                text-decoration: none;
+                background-color: inherit;
+                transform: scale(1.3);
+                text-shadow: 1px 1px white;
+            }
+
             * {
                 margin: 0;
                 padding: 0;
@@ -99,13 +106,6 @@
             <blade media|(max-width%3A%20720px)%20%7B%0D>.main {
                 width: 90%;
             }
-            }
-
-            #contactus {
-                text-decoration: none;
-                background-color: inherit;
-                margin-bottom: 12px;
-
             }
 
         </style>

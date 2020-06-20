@@ -24,8 +24,8 @@
                     3 comprehensive courses (CEH, ECSA and the APT course) to help a cyber security professional master
                     penetration testing.</p>
                 <br>
-                <h2>The Purpose of the CEH Credential is to:</h2>
-                <ol>
+                <h2><b>The Purpose of the CEH Credential is to:</b></h2>
+                <ol style="padding-left:30px">
                     <li>
                         Establish and govern minimum standards for credentialing professional information security
                         specialists in ethical hacking measures.
@@ -50,9 +50,26 @@
         </div>
 
     </div>
+    <div class="grid-container-bottom2">
+        <div class="grid-item-bottom2">
+            <h2>
+                <b> The Most Comprehensive Ethical Hacking Course in the World</b>
 
-    <div class="coursedetails" style="backgroud-color:red">
+            </h2>
 
+            <p>This is the worlds most advanced certified ethical hacking course with 20 of the most current
+                security domains any individual will ever want to know when they are planning to beef up the
+                information security posture of their organization. In 20 comprehensive modules, the course
+                covers 340 attack technologies, commonly used by hackers.</p>
+        </div>
+        <div class="grid-item-bottom2">
+            <iframe class="video-embed" width="460" height="290" src="https://www.youtube.com/embed/iU_7zKypJZI"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </div>
+    <div class="coursedetailscehpage">
         <?php include('ceh_coursedetails.php')?>
     </div>
 </body>

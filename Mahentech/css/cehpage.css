@@ -1,6 +1,6 @@
 .maincontentcehpage {
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 50px;
 }
 
 
@@ -34,9 +34,26 @@ hr.rounded {
 
 .grid-item-bottom {
     background-color: inherit;
-    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.grid-container-bottom2 {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 50px;
+    background-color: rgb(218, 216, 216);
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+
+.grid-item-bottom2 {
+    background-color: inherit;
     text-align: center;
     padding-bottom: 25px;
+    font-size: 25px;
+    text-align: left;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
 
 .certificate-image {
