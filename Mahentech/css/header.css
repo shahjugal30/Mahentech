@@ -69,8 +69,7 @@ li.menu-item-7 {
     cursor: pointer;
 }
 
-li.menu-item-5-mobile,
-li.menu-item-8-closemobile {
+li.menu-item-5-mobile {
     display: none;
 }
 

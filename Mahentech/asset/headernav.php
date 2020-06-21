@@ -25,7 +25,7 @@
         <div class="container">
             <div class="menu-toggle" style="margin-bottom: 15px;">
                 <span class="openbtn">&#9776;</span>
-                <span class="closebtn" style="display:none">&times;</span>
+                <span class="closebtn" style="display:none;font-size:28px">&times;</span>
 
             </div>
             <div class="logo_navbar_left">
@@ -134,11 +134,7 @@
                     <li class="menu-item-7">
                         <a id="contactus_nav" href="contactus.php">Contact Us</a>
                     </li>
-                    <li class="menu-item-8-closemobile">
 
-                        <a>Close Menu</a>
-
-                    </li>
 
                 </ul>
             </nav>

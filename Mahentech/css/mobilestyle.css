@@ -6,8 +6,7 @@
             bottom: 440px;
             padding-bottom: 10px;
         }
-        .container li.menu-item-5-mobile,
-        .container li.menu-item-8-closemobile {
+        .container li.menu-item-5-mobile {
             display: block;
         }
         .container li.menu-item-4 {
