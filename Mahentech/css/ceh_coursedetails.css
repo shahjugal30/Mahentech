@@ -55,7 +55,9 @@ body {
 div.tabcontent {
     background-color: #ccc;
     float: left;
-    padding-left: 40px;
+    padding-top: 5px;
+    padding-left: 35px;
+    padding-right: 10px;
     width: 70%;
     border-left: none;
     height: 100%;

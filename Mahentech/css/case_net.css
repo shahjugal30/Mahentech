@@ -1,6 +1,6 @@
 .maincontentcehpage {
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 10px;
 }
 
 
@@ -16,6 +16,8 @@ hr.rounded {
 .grid-container-top {
     display: grid;
     grid-template-columns: 70% auto;
+    padding-left: 30px;
+    padding-right: 10px;
 }
 
 .grid-item-top {
@@ -27,17 +29,38 @@ hr.rounded {
     font-style: normal;
 }
 
-.grid-container-bottom {
+.grid-container-middle {
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: inherit;
 }
 
-.grid-item-bottom {
+.grid-item-middle {
     background-color: inherit;
+    font-size: 22px;
     padding-bottom: 25px;
 }
 
-.grid-container-bottom2 {
+.grid-container-low {
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: inherit;
+    border-bottom: inset;
+    border-color: black;
+}
+
+.grid-item-low {
+    background-color: inherit;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.grid-container-bottom {
     padding-top: 5px;
     padding-left: 30px;
     padding-right: 50px;
@@ -46,7 +69,7 @@ hr.rounded {
     grid-template-columns: 70% auto;
 }
 
-.grid-item-bottom2 {
+.grid-item-bottom {
     background-color: inherit;
     text-align: center;
     padding-top: 10px;
@@ -65,6 +88,7 @@ hr.rounded {
 .certificate-image {
     width: auto;
     height: auto;
+    margin-top: 40px;
 }
 
 .coursedetails {
@@ -94,4 +118,37 @@ hr.rounded {
 .sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+
+.table1,
+.table2 {
+    width: 100%;
+    display: inline-block;
+    max-width: 100%;
+    position: relative;
+    overflow-x: auto;
+    margin-bottom: 1.5em;
+    margin: 0;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    table-layout: auto;
+    font-size: 20px;
+    background-color: inherit;
+    border-spacing: 0;
+}
+
+.table1 td,
+.table2 td {
+    word-break: initial;
+    padding: 15px;
+    border: 1px solid rgb(77, 75, 75);
+    background-color: inherit;
+}
+
+.table2 {
+    margin-bottom: 10px;
+}
+
+.table1 {
+    margin-bottom: 10px;
 }

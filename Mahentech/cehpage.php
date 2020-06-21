@@ -40,7 +40,7 @@
         </div>
         <div class="grid-container-bottom">
             <div class="grid-item-bottom">
-                <img class="certificate-image" src="images/certificate.png" style="float:left">
+                <img class="certificate-image" src="images/ceh_certificate.png" style="float:left">
             </div>
             <div class="grid-item-bottom">
                 <iframe class="video-embed" src="https://www.youtube.com/embed/L6dofrkRohA" frameborder="0"

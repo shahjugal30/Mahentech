@@ -6,7 +6,8 @@
             bottom: 440px;
             padding-bottom: 10px;
         }
-        .container li.menu-item-5-mobile {
+        .container li.menu-item-5-mobile,
+        .container li.menu-item-8-closemobile {
             display: block;
         }
         .container li.menu-item-4 {
@@ -131,6 +132,7 @@
             border-bottom-style: outset;
         }
         .grid-container-top {
+            width: 100%;
             display: grid;
             grid-template-columns: 100%;
         }
@@ -139,13 +141,28 @@
             padding-right: 10px;
         }
         .grid-container-bottom {
+            width: auto;
             display: grid;
             grid-template-columns: 100%;
             margin-right: 25px;
         }
         .grid-container-bottom2 {
+            width: auto;
             display: grid;
             grid-template-columns: 100%;
+        }
+        .grid-container-middle {
+            width: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            margin-right: 25px;
+        }
+        .grid-container-low {
+            width: auto;
+            display: grid;
+            grid-template-columns: 100%;
+            margin-right: 25px;
+            padding: 0px;
         }
         .certificate-image {
             width: 300px;
@@ -182,6 +199,10 @@
         }
         div.main_contactus {
             width: 90%;
+        }
+        div.maincontentsecuritytips {
+            padding-left: 15px;
+            padding-right: 10px;
         }
     }
     

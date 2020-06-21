@@ -1,6 +1,6 @@
-.maincontentcehpage {
+.maincontentecsapage {
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 10px;
 }
 
 
@@ -28,29 +28,21 @@ hr.rounded {
 }
 
 .grid-container-bottom {
-    display: grid;
-    grid-template-columns: 50% auto;
-}
-
-.grid-item-bottom {
-    background-color: inherit;
-    padding-bottom: 25px;
-}
-
-.grid-container-bottom2 {
+    width: 100%;
     padding-top: 5px;
     padding-left: 30px;
     padding-right: 50px;
-    background-color: rgb(218, 216, 216);
+    background-color: #ccc;
     display: grid;
     grid-template-columns: 70% auto;
 }
 
-.grid-item-bottom2 {
+.grid-item-bottom {
     background-color: inherit;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 25px;
+    padding-left: 20px;
     font-size: 25px;
     text-align: left;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;

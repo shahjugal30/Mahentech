@@ -24,8 +24,9 @@
     <header class="con">
         <div class="container">
             <div class="menu-toggle" style="margin-bottom: 15px;">
-                <span clas="openmenu">&#9776;</span>
-                <span clas="closemenu" style=' display:none'>&#10006;</span>
+                <span class="openbtn">&#9776;</span>
+                <span class="closebtn" style="display:none">&times;</span>
+
             </div>
             <div class="logo_navbar_left">
 
@@ -34,7 +35,7 @@
             </div>
 
 
-            <nav class="standard navbar-right">
+            <nav id="navbar" class="standard navbar-right">
                 <ul class="nav navbar-nav">
 
                     <li class="menu-item-0">
@@ -79,30 +80,31 @@
                                                 Ethical Hacker</a></div>
 
                                         <div class="chfi" onmouseover="mouseOverchfi()" onmouseout="mouseOutchfi()">
-                                            <i class='fas fa-long-arrow-alt-right'></i><a
+                                            <i class='fas fa-long-arrow-alt-right'></i><a href="chfipage.php"
                                                 class="trainingcourse">Computer
                                                 Hacking Forensic Investigator</a>
                                         </div>
                                         <div class="ecsa" onmouseover="mouseOverecsa()" onmouseout="mouseOutecsa()"><i
-                                                class='fas fa-long-arrow-alt-right'></i><a
+                                                class='fas fa-long-arrow-alt-right'></i><a href="ecsapage.php"
                                                 class="trainingcourse">EC-Council Certified Security Analyst (ECSA):
                                                 Penetration
                                                 Testing</a>
                                         </div>
                                         <div class="casenet" onmouseover="mouseOvercasenet()"
                                             onmouseout="mouseOutcasenet()"><i class='fas fa-long-arrow-alt-right'></i><a
-                                                class="trainingcourse">Certified Application Security Engineer (CASE
+                                                href="case_netpage.php" class="trainingcourse">Certified Application
+                                                Security Engineer (CASE
                                                 .NET) </a>
                                         </div>
                                         <div class="casejava" onmouseover="mouseOvercasejava()"
                                             onmouseout="mouseOutcasejava()"><i
-                                                class='fas fa-long-arrow-alt-right'></i><a
+                                                class='fas fa-long-arrow-alt-right'></i><a href="case_javapage.php"
                                                 class="trainingcourse">Certified Application Security Engineer (CASE
                                                 .JAVA) </a>
                                         </div>
                                         <div class="cehmaster" onmouseover="mouseOvercehmaster()"
                                             onmouseout="mouseOutcehmaster()"><i
-                                                class='fas fa-long-arrow-alt-right'></i><a
+                                                class='fas fa-long-arrow-alt-right'></i><a href="ceh_masterpage.php"
                                                 class="trainingcourse">Certified
                                                 Ethical Hacker(MASTER)</a>
                                         </div>
@@ -125,13 +127,18 @@
 
                     </li>
 
+
                     <li class="menu-item-6">
-                        <a id="securitytips_nav" href="#">Security Tips</a>
+                        <a id="securitytips_nav" href="securitytips.php">Security Tips</a>
                     </li>
                     <li class="menu-item-7">
                         <a id="contactus_nav" href="contactus.php">Contact Us</a>
                     </li>
+                    <li class="menu-item-8-closemobile">
 
+                        <a>Close Menu</a>
+
+                    </li>
 
                 </ul>
             </nav>

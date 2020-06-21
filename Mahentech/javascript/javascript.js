@@ -80,7 +80,18 @@ function mouseOutecsap() {
 
 
 $(document).ready(function() {
-    $('.menu-toggle').click(function() {
-        $('nav').toggleClass('active')
+    $('.openbtn').click(function() {
+        $('nav').toggleClass('active');
+        $(".openbtn").css("display", "none");
+        $(".closebtn").css("display", "block");
     })
+
+})
+$(document).ready(function() {
+    $('.closebtn').click(function() {
+        $('nav').toggleClass('active');
+        $(".closebtn").css("display", "none");
+        $(".openbtn").css("display", "block");
+    })
+
 })
